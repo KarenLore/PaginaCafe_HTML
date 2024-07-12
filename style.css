@@ -128,7 +128,7 @@ main button:hover {
   background-color: #fff;
   position: absolute;
   margin-top: 70px;
-  margin-left: -10px;
+  left: 100vh;
 
 }
 .dos {
