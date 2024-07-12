@@ -108,22 +108,21 @@ main button:hover {
     line-height: 1.5;
     margin-bottom: 20px;
   }
+
   .contenido-uno button {
-    background-color: #DAA055; /* Button background color */
-    color: #000; /* Button text color */
+    background-color: #DAA055;
+    color: #000;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
   }
   .contenido-uno button:hover {
-    background-color: #b89c60; 
-  }
+      background-color: #b38946;
+  } 
 
 .dos {
     display: flex;
-    background-color: #121212; /* Match the background */
+    background-color: #121212;
   }
   
   .contenido-dos {
@@ -150,8 +149,6 @@ main button:hover {
     border: none;
     padding: 10px 20px;
     font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
   }
   
   .contenido-dos button:hover {
@@ -212,8 +209,6 @@ main button:hover {
         border: none;
         padding: 10px 20px;
         font-size: 1em;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
     }
     button:hover {
         background-color: #b38946;
@@ -228,6 +223,14 @@ main button:hover {
     height: auto; 
 }
 
+.tres .linea hr{
+  width: 35%;
+  margin-left: 440px;
+  background-color: #b38946;
+  border: none;
+  height: 0.2rem;
+}
+
 .cuatro {
     width: 100%;
 }
@@ -235,7 +238,7 @@ main button:hover {
 .contenido-cuatro {
     display: flex; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;
 }
 
 .contacto-1 span, .contacto-2 span,.contacto-3  span{
@@ -252,6 +255,14 @@ main button:hover {
 .contacto-1 p, .contacto-2 p, .contact-3 p {
     max-width: 280px;
     text-align: center;
+}
+
+.linea2 hr{
+  width: 38%;
+  margin-left: 410px;
+  background-color: #b38946;
+  border: none;
+  height: 0.2rem;
 }
 
 footer {
