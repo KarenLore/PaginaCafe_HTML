@@ -1,84 +1,261 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.945);
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
 }
-.container{
-    grid-column: auto auto auto auto auto;
-    grid-row: auto auto auto auto auto;
-}
-.menu{
+
+header {
     display: flex;
+    gap: 50%;
+    width: 100%;
+    height: 7vh;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+header .logo-header {
+    text-align: center;
+    justify-self: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+}
+nav {
+    float: left;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+}
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid #DAA055;
+}
+
+main {
+    background-image: url(../Images/pexels-nao-triponez-129207.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-color: rgb(61, 60, 60);
+
+}
+main .titulo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
-h1{
-    color: white;
-    margin-left: 50px;
-}
-a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    margin-left: 380px;
-    margin-top: 20px;
-    font-size: 20px;
+main h1 {
+    padding: 0;
+    font-size: 52px;
+    padding: 0;
+    margin-top: 150px;
 }
 
-.titulo{
-    text-align: center;
-    justify-content: center;
+main h2 {
+    font-size: 52px;
+    margin-top: 70vh;
+    margin-left: 70vh;
+}
+main button {
+    background-color: #DAA055;
+    width: 120px;
+    height: 40px;
+    margin-top: -2vh;
+    border: 0px solid;
+    z-index: 100;
+    margin-left: 45vw;
+}
+main button:hover {
+    background-color: rgb(250, 181, 52);
+}
+
+.uno {
     display: flex;
-    h1{
-        font-size: 50px;
-        margin-top: 100px;
+    padding: 50px;
+    position: relative;
+    background-color: #121212;
+    z-index: -1; 
+}
+  .img1 img {
+    object-fit: cover; 
+  }
+  .contenido-uno {
+    max-width: 550px;
+  }
+  .contenido-uno h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .contenido-uno p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .contenido-uno button {
+    background-color: #DAA055; /* Button background color */
+    color: #000; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .contenido-uno button:hover {
+    background-color: #b89c60; 
+  }
+
+.dos {
+    display: flex;
+    background-color: #121212; /* Match the background */
+  }
+  
+  .contenido-dos {
+    margin-left: 100px;
+    margin-right: 15%;
+  }
+  
+  .contenido-dos h2 {
+    font-size: 55px;
+    max-width: 480px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contenido-dos p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .contenido-dos button {
+    background-color: #DAA055; /* Button background color */
+    color: #000; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contenido-dos button:hover {
+    background-color: #b38946; /* Button hover color */
+  }
+  
+  .img-dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-dos img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 35%;
+  }
+
+.tres {
+    width: 100%;
+    height: 100vh;
+}
+.tres h2 {
+    margin-left: 50px;
+    font-size: 55px;
+}
+.contenido-tres {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.producto-1, .producto-2, .producto-3 {
+    border: 1px solid #DAA055;
+    border-radius: 2%;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    padding: 15px;
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Colocar los elementos en una columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    position: relative;
+    h5 {
+        margin-top: 0px;
     }
-    img{
-        width: 300px;
-        margin-top: 200px;
-        margin-left: -370px;
+    p {
+        text-align: left;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
+
+    button {
+        background-color: #DAA055; 
+        color: #000; 
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #b38946;
+
     }
 }
 
-h2{
-    color: white;
-    font-size: 50px;
-    margin-top: 550px;
-    margin-left: -380px;
+.producto-1 img, .producto-2 img, .producto-3 img {
+    max-width: 40%; 
+    position: absolute;
+    top: -50px;
+    height: auto; 
 }
 
-.caja{
-    background: darkgoldenrod;
-    width: 90px;
-    height: 30px;
-    margin-left: 900px;
-    margin-top: -50px;
-    p{
-        color: black;
-        text-align: center;
-        justify-content: center;
-        font-size: 20px;
-    }
+.cuatro {
+    width: 100%;
 }
 
-.principal{
-    grid-template-columns:  auto auto auto auto;
-    grid-template-rows:  auto auto auto auto;
-    h3{
-        color: white;
-        text-align: center;
-        justify-content: center;
-        font-size: 40px;
-        margin-top: -250px;
-        margin-left: 700px;
-    }
-    p{
-        color: white;
-        width: 500px;
-        margin-left: 1180px;
-    }
+.contenido-cuatro {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
+.contacto-1 span, .contacto-2 span,.contacto-3  span{
+    color: #DAA055;
+}
 
+.contacto-1 h4, .contacto-2 h4, .contacto-3 h4{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contacto-1 p, .contacto-2 p, .contact-3 p {
+    max-width: 280px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}

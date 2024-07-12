@@ -1,43 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
-        <header class="menu">
-            <h1>Logo</h1>
-            <a href="#home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Menu">Menu</a>
-            <a href="#Contact">Contac</a>
-        </header>
+    <header id="home">
+        <a href="index.html" class="logo-header">Logo</a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
         <div class="titulo">
             <h1>START YOUR DAY</h1>
-            <img src="Images/3.png" alt="" width="100%" height="100%">
-            <h2>WITH OUR COFFEE</h2>
         </div>
-    </div>
-
-    <div class="caja">
-        <p>Shop Now</p>
-    </div>
-
-    <div class="principal">
-        <div class="imagen">
-            <img class="img2" src="Images/pexels-chitokan-2183027-removebg-preview.png" alt="">
-            <h3>-OUR STORY</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis, nobis maiores sapiente
-                perspiciatis recusandae repudiandae rerum voluptatem ducimus amet voluptate cupiditate illum molestiae
-                delectus aliquid. Iure voluptas ipsa expedita?</p>
+        <h2>WITH OUR COFFEE</h2>
+        <button>Shop Now</button>
+    </main>
+    <section class="uno" id="about">
+        <div class="img1"><img src="Images/pexels-chitokan-2183027-removebg-preview.png" alt=""></div>
+        <div class="contenido-uno">
+            <h2>OUR STORY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor doloremque reiciendis ea voluptatibus.
+                Quis modi ratione incidunt ipsam</p>
+            <button>Learn More</button>
         </div>
-    </div>
+    </section>
+    <section class="dos" id="section2">
+        <div class="contenido-dos">
+            <h2>PERFECT PLACE TO ENJOY YOUR COFFEE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="img-dos">
+            <img src="Images/2.png" alt="">
+        </div>
+    </section>
+    <section class="tres" id="menu">
+        <h2>PRODUCTS</h2>
+        <div class="contenido-tres">
+            <div class="producto-1">
+                <img src="Images/1.png" alt="">
+                <h5>Mocha</h5>
+                <p>Espresso <br>
+                    Chocolate <br>
+                    Steamed Milk</p>
+                <button>Learn More</button>
+            </div>
+            <div class="producto-2">
+                <img src="Images/3.png" alt="">
+                <h5>Mocha</h5>
+                <p>Espresso <br>
+                    Chocolate <br>
+                    Steamed Milk</p>
+                <button>Learn More</button>
+            </div>
+            <div class="producto-3">
+                <img src="Images/4.png" alt="">
+                <h5>Mocha</h5>
+                <p>Espresso <br>
+                    Chocolate <br>
+                    Steamed Milk</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="cuatro" id="contact">
+        <div class="contenido-cuatro">
+            <div class="contacto-1">
+                <h4>About <span>Us</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nulla?</p>
+            </div>
+            <div class="contacto-2">
+                <h4>Contact <span>Us</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nulla?</p>
+            </div>
+            <div class="contacto-3">
+                <h4>Opening <span>Hours</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nulla?</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; @2024 Karen Lorena Cristancho Caceres</p>
+    </footer>
 </body>
-
 </html>
