@@ -145,8 +145,8 @@ main button:hover {
   }
   
   .contenido-dos button {
-    background-color: #DAA055; /* Button background color */
-    color: #000; /* Button text color */
+    background-color: #DAA055; 
+    color: #000; 
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -155,7 +155,7 @@ main button:hover {
   }
   
   .contenido-dos button:hover {
-    background-color: #b38946; /* Button hover color */
+    background-color: #b38946; 
   }
   
   .img-dos {
@@ -192,10 +192,10 @@ main button:hover {
     height: 350px;
     margin: 30px;
     padding: 15px;
-    display: flex; /* Usar flexbox */
-    flex-direction: column; /* Colocar los elementos en una columna */
-    align-items: center; /* Centrar horizontalmente */
-    justify-content: center; /* Centrar verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     h5 {
         margin-top: 0px;
