@@ -97,16 +97,18 @@ main button:hover {
   }
   .contenido-uno {
     max-width: 550px;
+    margin-top: 10vh;
   }
   .contenido-uno h2 {
     font-size: 3em;
-    font-weight: bold;
     margin-bottom: 10px;
+    margin-left: 10vw;
   }
   .contenido-uno p {
     font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: 20px;
+    margin-left: 10vw;
   }
 
   .contenido-uno button {
@@ -115,11 +117,20 @@ main button:hover {
     border: none;
     padding: 10px 20px;
     font-size: 1em;
+    margin-left: 10vw;
   }
   .contenido-uno button:hover {
       background-color: #b38946;
   } 
+.contenido-uno hr{
+  width: 10%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: -10px;
 
+}
 .dos {
     display: flex;
     background-color: #121212;
