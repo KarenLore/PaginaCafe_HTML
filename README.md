@@ -1,4 +1,4 @@
-# Café
+# ☕Café
 ¡Bienvenido al repositorio del sitio web del Café¡
 
 ## Tabla de Contenidos
@@ -8,7 +8,7 @@
 | 2 | Características |
 | 3 | Menú |
 
-### Instalación
+### ✔️Instalación
 Deberas ejecutar el comando git clone para copiar el repositorio
   (https://github.com/KarenLore/PaginaCafe_HTML.git)
 
@@ -23,7 +23,7 @@ Código realizado en:
 ```
 
 ![image](https://github.com/user-attachments/assets/5abfae6c-9ab8-4522-8075-47c344a23a17)
-## Descripción
+## 📜Descripción
 Es un lugar acogedor donde puedes disfrutar de una amplia variedad de cafés deliciosos en un ambiente relajante. Mi sitio web proporciona toda la información necesaria sobre el menú, servicios y cómo contactarnos.
 
 ## Características
@@ -56,3 +56,8 @@ Hecho por ***Karen Lorena Cristancho Caceres***
 
 > [!CAUTION]
 > Mantén tus datos de contacto actualizados para recibir notificaciones sobre ofertas especiales y cambios en el menú.
+
+### 📞Contacto
+  Para preguntas, sugerencias o más información sobre el proyecto, no dudes en ponerte en contacto conmigo:
+  Nombre: Karen Lorena Cristancho
+  Email: karenlorenacriscaceres@gmail.com
